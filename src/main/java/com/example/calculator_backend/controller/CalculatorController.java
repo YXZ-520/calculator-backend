@@ -20,11 +20,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.List;
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = {
-    "http://localhost:5500",
-    "http://127.0.0.1:5500",
-    "https://calculator-frontend.2245438578.workers.dev"
-})
+@CrossOrigin(origins = "*")
 public class CalculatorController {
     private final CalculationHistoryService historyService;
 
