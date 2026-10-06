@@ -23,7 +23,7 @@ import java.util.List;
 @CrossOrigin(origins = {
     "http://localhost:5500",
     "http://127.0.0.1:5500",
-    "https://trip-handheld-incomplete-humanities.trycloudflare.com"
+    "https://calculator-frontend.2245438578.workers.dev"
 })
 public class CalculatorController {
     private final CalculationHistoryService historyService;
